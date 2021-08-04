@@ -1,9 +1,9 @@
 {
-  "name": "ICantBelieveItsNotValetudo",
+  "name": "ICantBelieveItsNotValetudo 2",
   "version": "3.4.1",
-  "slug": "icantbelieveitsnotvaletudo",
+  "slug": "icantbelieveitsnotvaletudo2",
   "description": "This is a simple companion service for valetudo which generates the map pngs.",
-  "url": "https://github.com/Poeschl/Hassio-Addons/tree/master/ICantBelieveItsNotValetudo",
+  "url": "https://github.com/derrohrbach/Hassio-Addons/tree/master/ICantBelieveItsNotValetudo",
   "arch": [
     "armhf",
     "armv7",
@@ -20,7 +20,7 @@
   },
   "ingress": true,
   "ingress_port": 8080,
-  "panel_title": "Valetudo Floorplan",
+  "panel_title": "Valetudo Floorplan 2",
   "panel_icon": "mdi:floor-plan",
   "map": ["ssl"],
   "schema": {
@@ -62,7 +62,7 @@
         "path": "#ffffff"
     },
     "mqtt" : {
-      "identifier": "rockrobo",
+      "identifier": "rockrobo2",
       "topicPrefix": "valetudo",
       "autoconfPrefix": "homeassistant",
       "broker_url": "mqtt://user:pass@foobar.example",
